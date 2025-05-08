@@ -1,0 +1,14 @@
+.register-button {
+  margin: 10px;
+}
+
+.return-button {
+  margin: 10px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.intro {
+  font-weight: bold;
+  margin: 50px;
+}

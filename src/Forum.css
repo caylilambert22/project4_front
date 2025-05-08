@@ -1,0 +1,9 @@
+.intro {
+  font-weight: bold;
+  margin: 50px;
+}
+
+.logout {
+  padding: 10px;
+  border-radius: 20%;
+}
