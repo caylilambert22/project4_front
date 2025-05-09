@@ -10,7 +10,7 @@ import axios from 'axios';
 function App() {
 
   useEffect(() => {
-    axios.get('http://localhost:3003/api/users').then(response => {
+    axios.get('https://b01823c2-be9f-4c54-b250-3dc8911e845d-00-6wpjuktw5hky.janeway.replit.dev/api/users').then(response => {
       console.log(response.data);
     }
     )
