@@ -14,13 +14,12 @@ function App() {
       console.log(response.data);
     }
     )
-  } ) 
+  },[]); 
   return (
     <Router>
       <Routes>
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
-        <Route path="/login" element={<h1>Welcome to the App!</h1>} />
         <Route path="/forum" element={<Forum />} />
       </Routes>
     </Router>
